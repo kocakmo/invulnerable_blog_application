@@ -34,7 +34,7 @@ echo '<div>';
                 echo '<h1> POST ID: '.$row['postid'].'</h1>';
                 echo '<p>Posted by '.$row['email'].'</p>';
                 echo '<p>'.substr($row['content'],0,150).'</p>';                
-                echo '<p><a href="viewpost.php?id='.$row['postid'].'">Read More</a></p>';                
+                echo '<p><a href="viewpost_invulnerable.php?id='.$row['postid'].'">Read More</a></p>';                
 echo '</div>';
 }
 ?>
